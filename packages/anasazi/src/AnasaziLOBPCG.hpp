@@ -198,7 +198,7 @@ namespace Anasazi {
   /** \brief LOBPCGOrthoFailure is thrown when an orthogonalization attempt 
    * fails.
    *
-   * This is thrown in one of two scenarstd::ios. After preconditioning the residual,
+   * This is thrown in one of two scenarios. After preconditioning the residual,
    * the orthogonalization manager is asked to orthogonalize the preconditioned
    * residual (H) against the auxiliary vectors. If full orthogonalization
    * is enabled, H is also orthogonalized against X and P and normalized.
